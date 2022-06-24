@@ -1,14 +1,14 @@
 body{
  	background-color:black;
 	cursor:url('cursor.cur'),default;
-	width:1350px;
 	margin:0px auto;
 }
 #container{
-	width:1350px;
+	width:1345px;
   margin:0px auto;
 }
 #header{
+	margin-right:0px;
   height:35px;
   background-color:white;
   font-family:cheri;
@@ -59,7 +59,6 @@ table,tr,td,th{
   padding:40px 50px;
   margin:auto;
 }
-
 td{
 	font-weight:bold;
   font-family:cheri;
@@ -193,7 +192,6 @@ td{
   float:left;
   position:relative;
 	bottom:5px;
-	margin:0%;
 }
 .img3{
 	width:450px;
@@ -201,6 +199,9 @@ td{
 	position:relative;
 	float:left;
 	bottom:5px;
+}
+img{
+	margin:10px;
 }
 .img4{
 	width:450px;
@@ -222,25 +223,16 @@ td{
 .scale1:hover{
 	transform:scale(0.9);
 }
+/*TEXTO///////*/
 .p{
   font-family:cheri;
   color:white;
   font-size:18pt;
-  position:relative;
-	top:70px;
-	left:20px;
+	align-items:center;
   font-weight:bolder;
-
-}
-#p1{
-	font-family:cheri;
-  color:white;
-  font-size:18pt;
-  position:relative;
-	top:40px;
-	left:20px;
-  font-weight:bolder;
-
+	overflow:visible;
+	text-align:justify;
+	margin:30px;
 }
 hr{
 	width:100%;
@@ -524,9 +516,9 @@ footer{
 	text-align:center;
 	color:white;
 	font-size:15pt;
-	float:left;
 	position:relative;
-	left:160px;
 	top:120px;
 	font-weight:bolder;
 }
+
+
