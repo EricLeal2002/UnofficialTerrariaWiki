@@ -1,0 +1,532 @@
+body{
+ 	background-color:black;
+	cursor:url('cursor.cur'),default;
+	width:1350px;
+	margin:0px auto;
+}
+#container{
+	width:1350px;
+  margin:0px auto;
+}
+#header{
+  height:35px;
+  background-color:white;
+  font-family:cheri;
+  font-size:18pt;
+  text-align:center;
+  color:black;
+	text-shadow:1px 1px 2px black;
+  font-weight:bolder;
+	margin-bottom:10px;
+}
+.nav{
+  background-color:black;
+  overflow:hidden;
+	display:flex;
+	justify-content:center;
+}
+.nav a{
+  float:left;
+  color:white;
+  padding:14pt 16px;
+  text-decoration:none;
+	font-family:cheri;
+  font-size:16pt;
+	font-weight:bolder;
+}
+.nav a:hover{
+	background-color:white;
+	color:black;
+}
+#cabeçalho2{
+  font-family:Cheri;
+  font-size:30pt;
+  color:white;
+  background-color:black;
+  text-align:center;
+  margin:0px;
+  width:100%;
+  height:50px;
+}
+a{
+	text-decoration:none;
+	color:white;
+}
+table,tr,td,th{
+  font-family:cheri;
+  color:white;
+  border-collapse:collapse;
+  padding:40px 50px;
+  margin:auto;
+}
+
+td{
+	font-weight:bold;
+  font-family:cheri;
+  font-size:14pt;
+	text-align:center;
+}
+#td1{
+	background-image:url('ranged.png');
+  background-repeat:no-repeat;
+  background-size:18%;
+	background-position:10px 27px;
+}
+#td2{
+  background-image:url('Vortex_Helmet.png');
+  background-repeat:no-repeat;
+  background-size:12%;
+	background-position:10px 35px;
+}
+#td3{
+	background-image:url('Vortex_Breastplate.png');
+  background-repeat:no-repeat;
+  background-size:15%;
+	background-position:7px 37px;
+}
+#td4{
+	background-image:url('Vortex_Leggings.png');
+	background-repeat:no-repeat;
+	background-size:11%;
+	background-position:13px 37px;
+}
+#td5{
+	background-image:url('Vortex_Beater.png');
+	background-repeat:no-repeat;
+	background-size:20%;
+	background-position:6px 41px;
+}
+#td6{
+  background-image:url('melee.png');
+  background-repeat:no-repeat;
+  background-size:20%;
+	background-position:10px 27px;
+}
+#td7{
+  background-image:url('Solar_Flare_Helmet.png');
+  background-repeat:no-repeat;
+  background-size:12%;
+	background-position:10px 35px;
+}
+#td8{
+	background-image:url('Solar_Flare_Breastplate.png');
+  background-repeat:no-repeat;
+  background-size:15%;
+	background-position:6px 37px;
+}
+#td9{
+	background-image:url('Solar_Flare_Leggings.png');
+	background-repeat:no-repeat;
+	background-size:11%;
+	background-position:13px 37px;
+}
+#td10{
+	background-image:url("Solar_Eruption.png");
+	background-repeat:no-repeat;
+	background-size:14%;
+	background-position:10px 34px;
+}
+#td11{
+  background-image:url('mage.png');
+  background-repeat:no-repeat;
+  background-size:18%;
+	background-position:10px 27px;
+}
+#td12{
+  background-image:url('Nebula_Helmet.png');
+  background-repeat:no-repeat;
+  background-size:12%;
+	background-position:10px 32px;
+}
+#td13{
+	background-image:url('Nebula_Breastplate.png');
+  background-repeat:no-repeat;
+  background-size:15%;
+	background-position:6px 37px;
+}
+#td14{
+	background-image:url('Nebula_Leggings.png');
+	background-repeat:no-repeat;
+	background-size:11%;
+	background-position:13px 37px;
+}
+#td15{
+	background-image:url("Nebula_Blaze.png");
+	background-repeat:no-repeat;
+	background-size:13%;
+	background-position:10px 34px;
+}
+#td16{
+  background-image:url('summon.png');
+  background-repeat:no-repeat;
+  background-size:18%;
+	background-position:10px 27px;
+}
+#td17{
+  background-image:url('Stardust_Helmet.png');
+  background-repeat:no-repeat;
+  background-size:12%;
+	background-position:10px 32px;
+}
+#td18{
+	background-image:url('Stardust_Plate.png');
+  background-repeat:no-repeat;
+  background-size:15%;
+	background-position:12px 37px;
+}
+#td19{
+	background-image:url('Stardust_Leggings.png');
+	background-repeat:no-repeat;
+	background-size:11%;
+	background-position:16px 38px;
+}
+#td20{
+	background-image:url("Stardust_Dragon_Staff.png");
+	background-repeat:no-repeat;
+	background-size:13%;
+	background-position:10px 34px;
+}
+
+.img2{
+  width:450px;
+  height:265px;
+  float:left;
+  position:relative;
+	bottom:5px;
+	margin:0%;
+}
+.img3{
+	width:450px;
+  height:260px;
+	position:relative;
+	float:left;
+	bottom:5px;
+}
+.img4{
+	width:450px;
+  height:260px;
+	position:relative;
+	float:left;
+	bottom:5px;
+}
+.img5{
+	width:450px;
+  height:260px;
+	position:relative;
+	float:left;
+	bottom:5px;
+}
+.scale1{
+	transition:transform 0.5s;
+}
+.scale1:hover{
+	transform:scale(0.9);
+}
+.p{
+  font-family:cheri;
+  color:white;
+  font-size:18pt;
+  position:relative;
+	top:70px;
+	left:20px;
+  font-weight:bolder;
+
+}
+#p1{
+	font-family:cheri;
+  color:white;
+  font-size:18pt;
+  position:relative;
+	top:40px;
+	left:20px;
+  font-weight:bolder;
+
+}
+hr{
+	width:100%;
+	height:2px;
+	background-color:white;
+}
+.teste{
+	display:inline-block;
+}
+#pylon{
+	width:500px;
+	height:600px;
+	float:left;
+	margin-left: 2px;
+}
+#pylon{
+	display:inline-block;
+}
+#hr1{
+	position:relative;
+	top:5px;
+}
+#textoPylon{
+	font-family:cheri;
+	color:white;
+	font-size:18pt;
+	position:relative;
+	top:10px;
+	left:20px;
+	font-weight:bolder;
+}
+.span1{
+	position:relative;
+	left:15px;
+}
+#guia{
+	background-image:url('Guide.png');
+  	background-repeat:no-repeat;
+  	background-size:13%;
+	background-position:15px 45px;
+}
+#comerciante{
+	background-image:url('Merchant.png');
+  	background-repeat:no-repeat;
+  	background-size:15%;
+	background-position:8px 35px;
+}
+#enfermeira{
+	background-image:url('Nurse.png');
+  	background-repeat:no-repeat;
+  	background-size:13%;
+	background-position:13px 35px;
+}
+#demolidor{
+	background-image:url('Demolitionist.png');
+  	background-repeat:no-repeat;
+  	background-size:19%;
+	background-position:5px 35px;
+}
+#tintura{
+	background-image:url('Dye_Trader.png');
+  	background-repeat:no-repeat;
+  	background-size:12%;
+	background-position:10px 46px;
+}
+#pescador{
+	background-image:url('Angler.png');
+  	background-repeat:no-repeat;
+  	background-size:13%;
+	background-position:15px 35px;
+}
+#zoologa{
+	background-image:url('Zoologist.png');
+  	background-repeat:no-repeat;
+  	background-size:16%;
+	background-position:8px 35px;
+}
+#driade{
+	background-image:url('Dryad.png');
+  	background-repeat:no-repeat;
+  	background-size:13%;
+	background-position:13px 40px;
+}
+#pintor{
+	background-image:url('Painter.png');
+  	background-repeat:no-repeat;
+  	background-size:17%;
+	background-position:13px 35px;
+}
+#jogadorDeGolfe{
+	background-image:url('Golfer.png');
+  	background-repeat:no-repeat;
+  	background-size:16%;
+	background-position:7px 25px;
+}
+#armas{
+	background-image:url('Arms_Dealer.png');
+  	background-repeat:no-repeat;
+  	background-size:13%;
+	background-position:12px 33px;
+}
+#taberneiro{
+	background-image:url('Tavernkeep.png');
+  	background-repeat:no-repeat;
+  	background-size:15%;
+	background-position:13px 45px;
+}
+#estilista{
+	background-image:url('Stylist.png');
+  	background-repeat:no-repeat;
+  	background-size:15%;
+	background-position:13px 30px;
+}
+#goblin{
+	background-image:url('Goblin_Tinkerer.png');
+  	background-repeat:no-repeat;
+  	background-size:13%;
+	background-position:10px 35px;
+}
+#medico{
+	background-image:url('Witch_Doctor.png');
+  	background-repeat:no-repeat;
+  	background-size:20%;
+	background-position:6px 35px;
+}
+#alfaiate{
+	background-image:url('Clothier.png');
+  	background-repeat:no-repeat;
+  	background-size:14%;
+	background-position:12px 30px;
+}
+#mecanica{
+	background-image:url('Mechanic.png');
+  	background-repeat:no-repeat;
+  	background-size:17%;
+	background-position:8px 30px;
+}
+#feiticeiro{
+	background-image:url('Wizard.png');
+  	background-repeat:no-repeat;
+  	background-size:16%;
+	background-position:10px 18px;
+}
+#cobrador{
+	background-image:url('Tax_Collector.png');
+  	background-repeat:no-repeat;
+  	background-size:17%;
+	background-position:8px 30px;
+}
+#trufa{
+	background-image:url('Truffle.png');
+  	background-repeat:no-repeat;
+  	background-size:14%;
+	background-position:8px 30px;
+}
+#pirata{
+	background-image:url('Pirate.png');
+  	background-repeat:no-repeat;
+  	background-size:13%;
+	background-position:10px 25px;
+}
+#steampunker{
+	background-image:url('Steampunker.png');
+  	background-repeat:no-repeat;
+  	background-size:11%;
+	background-position:10px 25px;
+}
+#ciborgue{
+	background-image:url('Cyborg.png');
+  	background-repeat:no-repeat;
+  	background-size:12%;
+	background-position:10px 25px;
+}
+#papaiNoel{
+	background-image:url('Santa_Claus.png');
+  	background-repeat:no-repeat;
+  	background-size:14%;
+	background-position:10px 30px;
+}
+#princesa{
+	background-image:url('Princess.png');
+  	background-repeat:no-repeat;
+  	background-size:14%;
+	background-position:10px 57px;
+}
+#ambulante{
+	background-image:url('Traveling_Merchant.png');
+  	background-repeat:no-repeat;
+  	background-size:14%;
+	background-position:10px 37px;
+}
+#velho{
+	background-image:url('Old_Man.png');
+  	background-repeat:no-repeat;
+  	background-size:15%;
+	background-position:10px 57px;
+}
+#comercianteEsqueleto{
+	background-image:url('Skeleton_Merchant.png');
+  	background-repeat:no-repeat;
+  	background-size:19%;
+	background-position:9px 57px;
+}
+footer{
+	height:250px;
+	width:100%;
+	background-color:black;
+}
+#footer{
+	text-align:center;
+	color:white;
+	font-size:15pt;
+	float:left;
+	position:relative;
+	left:480px;
+	top:75px;
+	font-weight:bolder;
+}
+.twitter{
+	border:1px solid white;
+	background-color:white;
+	border-radius:200%;
+	background-image:url("twitter.png");
+	background-repeat:no-repeat;
+	width:40px;
+	background-size:120%;
+	background-position:center;
+	height:40px;
+	position:relative;
+	float:left;
+	left:510px;
+	top:65px;
+	transition:transform 0.5s;
+}
+.social:hover{
+	transform:scale(1.1);
+	cursor:pointer;
+}
+.github{
+	border:1px solid white;
+	background-color:white;
+	border-radius:200%;
+	background-image:url("github.png");
+	background-repeat:no-repeat;
+	width:40px;
+	background-size:110%;
+	background-position:center;
+	height:40px;
+	position:relative;
+	float:left;
+	left:540px;
+	top:63px;
+	transition:transform 0.5s;
+}
+.instagram{
+	border:1px solid white;
+	background-color:white;
+	border-radius:24%;
+	background-image:url("instragram.png");
+	background-repeat:no-repeat;
+	width:40px;
+	background-size:110%;
+	background-position:center;
+	height:40px;
+	position:relative;
+	float:left;
+	left:570px;
+	top:63px;
+	transition:transform 0.5s;
+}
+#hrfooter{
+	opacity:0.3;
+	color:white;
+	right:100px;
+	position:relative;
+	top:200px;
+	width:80%;
+	height:1px;
+}
+#copy{
+	text-align:center;
+	color:white;
+	font-size:15pt;
+	float:left;
+	position:relative;
+	left:160px;
+	top:120px;
+	font-weight:bolder;
+}
