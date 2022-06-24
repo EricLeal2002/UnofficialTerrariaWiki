@@ -1,2 +1,2 @@
 # Unofficial-Terraria-Wiki
-Meu primeiro trabalho de web
+Meu primeiro projeto de web
